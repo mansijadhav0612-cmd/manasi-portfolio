@@ -16,51 +16,10 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
 </head>
-<!-- ================= MY CARD ================= -->
 
-<section id="mycard" class="my-card-section">
 
-    <h2>My <span>Card</span></h2>
-
-    <div class="digital-card">
-
-        <div class="card-photo">
-            <img src="./profile.png" alt="Manasi Jadhav">
-        </div>
-
-        <h1>Manasi Jadhav</h1>
-
-        <p class="card-role">Information Technology Student</p>
-
-        <div class="card-line"></div>
-
-        <div class="card-details">
-
-            <p>📞 <b>Contact:</b> 8483019814</p>
-
-            <p>✉️ <b>Email:</b> mansijadhav8384@gmail.com</p>
-
-            <p>📍 <b>Address:</b> Nashik, Maharashtra</p>
-
-        </div>
-
-        <div class="signature">
-            Manasi
-        </div>
-
-        <div class="card-footer">
-            💜 by Manasi
-        </div>
-
-    </div>
-
-    <button class="download-card" onclick="window.print()">
-        ⬇ Download My Card
-    </button>
-
-</section>
-<body>
 
     <!-- Header -->
     <header class="header">
@@ -75,7 +34,69 @@
             <a href="#mycard">My Card</a>
         </nav>
     </header>
+<!-- ================= MY CARD ================= -->
 
+<section id="mycard" class="my-card-section">
+
+    <h2>My <span>Card</span></h2>
+
+    <!-- DIGITAL CARD -->
+    <div class="digital-card" id="digitalCard">
+
+        <!-- PHOTO -->
+        <div class="card-photo">
+            <img src="./profile.png" alt="Manasi Jadhav">
+        </div>
+
+        <!-- NAME -->
+        <h1>Manasi Jadhav</h1>
+
+        <!-- ROLE -->
+        <p class="card-role">
+            Information Technology Student
+        </p>
+
+        <!-- LINE -->
+        <div class="card-line"></div>
+
+        <!-- DETAILS -->
+        <div class="card-details">
+
+            <p>
+                📞 <b>Contact:</b> 8483019814
+            </p>
+
+            <p>
+                ✉️ <b>Email:</b> mansijadhav8384@gmail.com
+            </p>
+
+            <p>
+                📍 <b>Address:</b> Nashik, Maharashtra
+            </p>
+
+        </div>
+
+        <!-- SIGNATURE -->
+        <div class="signature">
+            Manasi
+        </div>
+
+        <!-- FOOTER -->
+        <div class="card-footer">
+            💜 by Manasi
+        </div>
+
+    </div>
+
+
+    <!-- DOWNLOAD BUTTON -->
+    <button
+        class="download-card"
+        onclick="downloadCard()">
+        ⬇ Download My Card
+    </button>
+
+</section>
     <!-- Home -->
     <section class="home" id="home">
         <div class="home-img">
